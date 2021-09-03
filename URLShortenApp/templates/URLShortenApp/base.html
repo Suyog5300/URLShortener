@@ -1,0 +1,16 @@
+{% extends 'URLShortenApp/home.html' %}
+
+{% block content %}
+
+    <div class='base-page'>
+        <h1>Shortened URL Already Exists!!</h1>
+        <p style="color:thistle;">{{obj.original_url}}</p>
+
+        <input style="text-align: center; border-radius: 5px; outline:none; height: 40px; border: 1px solid #ffffff;" type="text" value="{{obj.get_short_url}}" size="50">
+
+        <div style="padding-top: 40px;">
+            <a class='btn btn-outline-light' href="/">Shorten new URL</a>
+        </div>
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'URLShortenApp/home.html' %}
+
+{% block content %}
+
+    <div class='col-sm-6 mx-auto'>
+        <form class='form-home' action='.' method='POST' autocomplete="off">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input class='btn btn-outline-light' type='submit' value='Shorten'>
+        </form>
+    </div>
+
+    {% if form.errors %}
+        <div id='hdtimeout'>  
+            <h2 class='err-header'>Unable to shorten that link. It is not a valid URL</h2>
+        </div>
+    {% endif %}
+    
+{% endblock %}
