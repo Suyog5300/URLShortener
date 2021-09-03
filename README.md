@@ -39,7 +39,7 @@ def b62Encode(num):
 
 
 
-<img src="URLShortenApp/static/URLShortenApp/images/hm-page.png" width="250">      <img src="URLShortenApp/static/URLShortenApp/images/success-page.png" width="250">
+<img src="URLShortenApp/static/URLShortenApp/images/hm-page.png" width="500">      <img src="URLShortenApp/static/URLShortenApp/images/success-page.png" width="500">
 
 
 
