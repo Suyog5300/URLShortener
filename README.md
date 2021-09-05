@@ -24,7 +24,7 @@ def b62Encode(num):
 
 ## How to run locally:
 
-*   Dowmload zip file or clone this repository
+*   Download zip file or clone this repository
 *   Create a virtual environment:
 *   Install the dependencies using command:  `pip install -r requirements.txt`
 *   Run the server using command:  `python manage.py runserver`
